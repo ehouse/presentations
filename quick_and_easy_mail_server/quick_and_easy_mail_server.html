@@ -43,12 +43,26 @@
 </section>
 <section><section id="parts-of-the-email-stack" class="titleslide slide level1"><h1>Parts of the Email Stack</h1></section><section id="smtp" class="slide level2">
 <h1>SMTP</h1>
-</section><section id="submission" class="slide level2">
-<h1>Submission</h1>
+<ul>
+<li>PostFix</li>
+<li>Exchange</li>
+<li>OpenSMTPD</li>
+</ul>
+<p>Its accepts and sends emails</p>
 </section><section id="imappop3" class="slide level2">
 <h1>IMAP/POP3</h1>
+<p>Allows users to read and markup emails</p>
+<p>The interface between the user and the email server</p>
+</section><section id="submission" class="slide level2">
+<h1>Submission</h1>
+<p>Used for submission of emails</p>
+<p><em>NOT SMTP</em></p>
 </section><section id="exchange" class="slide level2">
 <h1>Exchange</h1>
+<p>Full stack Windows Mail Server</p>
+<div class="fragment">
+<p>Boring</p>
+</div>
 </section></section>
 <section><section id="setup-of-smtp-server" class="titleslide slide level1"><h1>Setup of SMTP Server</h1></section><section id="why-not-postfix" class="slide level2">
 <h1>Why not Postfix?</h1>

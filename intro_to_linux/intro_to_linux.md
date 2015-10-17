@@ -4,23 +4,19 @@
 # Quick history Lession
 
 ## 
-
 Written in 1991 by swedish programmer Linus Torvalds
 
 He wrote it because minix cost to much to run on his PC
 
 ## 
-
 He incorperated software from the GNU project like GCC and Bash
 
 ## 
-
 It is Free and Open Source
 
 Under GPLv2 License
 
 ## 
-
 He released it for the world to use
 
 . . . 
@@ -32,7 +28,6 @@ In 1993 there were 100+ developers
 In 2015 there were over 12,000 developers
 
 ## 
-
 Used in over 75% of the smartphone market (Android is linux based) 
 
 Ubuntu has over 22 Million reported users
@@ -40,8 +35,7 @@ Ubuntu has over 22 Million reported users
 Almost impossible to not use Linux as a dev in some way
 
 # Learn Linux by Example
-
-# Follow Along!!!
+Folow Along!
 
 # Access the shell
 
