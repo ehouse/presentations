@@ -9,65 +9,44 @@ I Promise
 
 # Parts of the Email Stack
 ## SMTP
-- PostFix
-- OpenSMTPD
+It accepts, relays, and forwards emails
 
-Its accepts and sends emails
+This is what sends and receives emails between servers.
+
+It does not present them for users, that's IMAP's job
 
 ## IMAP/POP3
-Allows users to read and markup emails
+Access emails remotely
 
-The interface between the user and the email server
+IMAP keeps the files on server
 
-- Dovecot
-- hMail
-- Cyrus
+POP3 downloads then deletes from server
 
 # Setup of SMTP Server
 
-## Why not Postfix?
-The common goto server is Postfix
-
-. . .
-
-It's terrible
-
-. . .
-
-Incredable verbose and VERY easy to mess up
-
 ## Why OpenSMTPD?
-Written to be easy to use
+Made by the guys who made OpenBSD
 
-Written to be secure
+Written to be secure and hard to mess up
 
 Terse, easy to write config language
 
-## Example Config Length
-<-- Config Length Example here -->
-
 ## Config
-<-- Example Config here ->
+<!-- Example Config here -->
 
 ## Config Breakdown
-<-- Go over Each line of config here -->
+<!-- Go over Each line of config here -->
 
 ## Testing
-<-- Connect with Mutt --> 
+<!-- Connect with Mutt -->
 
 # Setup of IMAP Server
+
 ## About Dovecot
-Hardest Part of Mail stack
-
-I'll break it down for easy use
-
 ## Config and Setup
 ## Testing
 
 # Mail Stack Add-ons
 ## DKIM
-DomainKeys Identified Mail
-
-Signs emails to check against 
 ## SPF
 ## Web Mail
