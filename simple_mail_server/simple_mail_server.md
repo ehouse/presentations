@@ -1,7 +1,7 @@
-% Quick and Easy Mail Server
+% Simple Mail Server
 % Ethan House (ehouse@csh.rit.edu)
 
-## Email is Easy
+## Email can be Easy
 
 . . .
 
