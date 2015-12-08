@@ -1,4 +1,4 @@
-project = quick_and_easy_mail_server
+project = easy_mail_server
 web_dir = ~/public_html/presentations
 theme = night
 transition = slide
