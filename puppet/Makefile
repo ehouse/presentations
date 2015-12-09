@@ -23,7 +23,6 @@ install: $(project).html reveal.js
 	rsync -av $(project).html $(web_dir)/$(project)/
 
 clean: 
-	rm -rf reveal.js
 	rm -rf $(project).html
 
 .PHONY: all install-deps install clean
